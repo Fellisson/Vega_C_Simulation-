@@ -1,0 +1,21 @@
+===== MODELE VEGA PID =====
+Vehicule                : Vega-C (profil simplifie inspire du reel)
+Mode                    : no_render
+Commande PID            : oui
+Temps de vol            : 365.7500 s
+Portee horizontale      : 242766.7702 m
+Impact X                : 242733.8803 m
+Impact Y                : 3996.0104 m
+Altitude maximale       : 250584.6382 m
+Vitesse maximale        : 4014.0628 m/s
+Vitesse finale          : 1653.5881 m/s
+Masse initiale          : 210000.0000 kg
+Masse finale            : 48983.0097 kg
+Fin de simulation       : satellite_deployed_then_ground_impact
+Satellite deploye       : oui
+Temps separation sat.   : 162.2500 s
+Altitude separation     : 250584.6382 m
+Portee separation       : 99557.4048 m
+Export video            : non
+Decor complet           : non
+============================

@@ -1,0 +1,13 @@
+Comparaison tangage
+
+                <strong>Metrique</strong>                 <strong>Avec_PID</strong>     <strong>Sans_PID</strong>     <strong>Gain_pct</strong>  
+    <strong>________________________________</strong>    <strong>__________</strong>    <strong>________</strong>    <strong>___________</strong>
+
+    {'Temps de montee (s)'         }         113.5        NaN             NaN
+    {'Depassement maximal (%)'     }        15.469          0     -1.5469e+12
+    {'Temps d'etablissement (s)'   }           NaN        NaN             NaN
+    {'Erreur statique (deg)'       }       -4.8653     38.711          112.57
+    {'RMS de l'erreur (deg)'       }        2.7517     22.839          87.952
+    {'Effort de commande RMS (N.m)'}    1.3564e+05          0     -1.3564e+16
+
+

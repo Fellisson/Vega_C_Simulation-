@@ -1,0 +1,47 @@
+===== DIAGNOSTIC PID MODELE VEGA PID OK =====
+Mode                    : no_render
+Temps de vol            : 365.7500 s
+Filtre reference tau    : 1.0000 s
+Filtre derivee tau      : 0.2000 s
+Limite integrale        : 12.0000 deg
+Moment max commande     : 2000000.0000 N.m
+Commande active         : oui
+Echantillons actifs     : 648
+RMS phi actif           : 0.9147 deg
+RMS theta actif         : 2.6652 deg
+RMS psi actif           : 0.0030 deg
+Mmax phi actif          : 26425.1180 N.m
+Mmax theta actif        : 192127.6428 N.m
+Mmax psi actif          : 62.9779 N.m
+
+--- Axe phi ---
+Gains                   : kp = 5.8000e+05 | ki = 2.0000e+04 | kd = 1.8000e+05
+Erreur RMS              : 0.9147 deg
+Erreur max abs          : 2.1847 deg
+Moment max abs          : 26425.1180 N.m
+Part de saturation      : 0.0000
+P max abs               : 22114.2095 N.m
+I max abs               : 4188.7902 N.m
+D max abs               : 657.0180 N.m
+
+--- Axe theta ---
+Gains                   : kp = 1.6000e+06 | ki = 4.0000e+04 | kd = 1.6000e+05
+Erreur RMS              : 2.6652 deg
+Erreur max abs          : 6.5276 deg
+Moment max abs          : 192127.6428 N.m
+Part de saturation      : 0.0000
+P max abs               : 183921.4659 N.m
+I max abs               : 8377.5804 N.m
+D max abs               : 1588.1795 N.m
+
+--- Axe psi ---
+Gains                   : kp = 4.6000e+05 | ki = 1.4000e+04 | kd = 1.7000e+05
+Erreur RMS              : 0.0030 deg
+Erreur max abs          : 0.0073 deg
+Moment max abs          : 62.9779 N.m
+Part de saturation      : 0.0000
+P max abs               : 91.9381 N.m
+I max abs               : 55.0336 N.m
+D max abs               : 60.2284 N.m
+
+================================================

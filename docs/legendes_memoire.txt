@@ -1,0 +1,29 @@
+LEGENDES PROPOSEES POUR LE MEMOIRE
+
+Figure 1. Diagnostic du correcteur PID applique au modele Vega-C simplifie.
+Cette figure presente l'evolution des angles d'attitude et des moments de commande associes aux axes de roulis, tangage et lacet dans le cas du `modele_vega_PID_ok`.
+
+Figure 1 bis. Diagnostic des perturbations de vent appliquees au `modele_vega_PID_ok`.
+Cette figure presente l'evolution temporelle des composantes du vent (wind_x, wind_y, wind_z) ainsi que les moments perturbateurs aerodynamiques associes (tau_wind_x, tau_wind_y, tau_wind_z) dans le cadre du modele de vent realiste.
+
+Figure 2. Comparaison globale de la simulation avec et sans correcteur PID.
+Cette figure rassemble la trajectoire, l'evolution du tangage, l'erreur de suivi, l'effort de commande et les principaux indicateurs de performance pour les deux configurations.
+
+Figure 3. Tableau comparatif des performances en tangage avec et sans PID.
+Cette figure synthetise les indicateurs de temps de montee, depassement maximal, temps d'etablissement, erreur statique, erreur RMS et effort de commande pour les deux cas etudies.
+
+Figure 4. Tableau comparatif des indicateurs de mission avec et sans PID.
+Cette figure presente les grandeurs globales de mission telles que le temps de vol, la portee horizontale, l'altitude maximale, la vitesse maximale et le temps de separation satellite.
+
+Tableau 1. Comparaison quantitative des performances de tangage avec et sans correcteur PID.
+Ce tableau met en evidence l'amelioration du suivi de consigne obtenue par la commande PID sur la phase de guidage active.
+
+Note de mise a jour numerique.
+Avec le modele de vent realiste, le tableau de tangage donne les valeurs suivantes : temps de montee = 131 s, depassement maximal = 0.127 %, temps d'etablissement = 152.5 s, erreur statique = -0.051 deg, RMS de l'erreur = 1.999 deg avec PID contre 34.737 deg sans PID, soit un gain d'environ 94.25 %.
+
+Tableau 2. Comparaison des indicateurs globaux de mission avec et sans PID.
+Ce tableau permet de verifier que l'ajout du correcteur ameliore la stabilite en attitude sans remettre en cause la logique generale de mission.
+
+Tableau 3. Classeur de comparaison PID / sans PID.
+Le fichier Excel regroupe les entrees de simulation, les indicateurs synthetiques et les series temporelles associees aux deux configurations.
+

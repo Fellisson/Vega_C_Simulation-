@@ -1,0 +1,12 @@
+===== SYNTHESE COMPARAISON PID / SANS PID =====
+Verdict                : Gain fort du PID
+RMS theta PID          : 1.9989 deg
+RMS theta sans PID     : 34.7368 deg
+Amelioration RMS theta : 94.25 %
+Temps de montee PID    : 131.0000 s
+Temps de montee sans   : NaN s
+Depassement PID        : 0.1274 %
+Depassement sans PID   : 0.0000 %
+Effort RMS PID         : 8.4444e+04 N.m
+Effort RMS sans PID    : 0.0000e+00 N.m
+================================================

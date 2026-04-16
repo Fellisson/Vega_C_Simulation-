@@ -1,0 +1,12 @@
+Comparaison mission
+
+                  <strong>Metrique</strong>                    <strong>Avec_PID</strong>      <strong>Sans_PID</strong> 
+    <strong>_____________________________________</strong>    <strong>__________</strong>    <strong>__________</strong>
+
+    {'Temps de vol (s)'                 }         365.5        362.25
+    {'Portee horizontale (m)'           }    2.4834e+05    1.3934e+05
+    {'Altitude maximale (m)'            }    2.5008e+05    2.5078e+05
+    {'Vitesse max (m/s)'                }        4025.7        3949.2
+    {'Temps de separation satellite (s)'}        162.25        158.75
+
+

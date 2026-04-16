@@ -1,0 +1,7 @@
+Metrique,Avec_PID,Sans_PID,Gain_pct
+Temps de montee (s),131,NaN,NaN
+Depassement maximal (%),0.127364324858113,0,-12736432485.8113
+Temps d'etablissement (s),152.5,NaN,NaN
+Erreur statique (deg),-0.0507804826548082,55.8837504888006,100.090868064886
+RMS de l'erreur (deg),1.99893608764743,34.7368278641107,94.2454846612155
+Effort de commande RMS (N.m),84444.3649792348,0,-8.44443649792348e+15

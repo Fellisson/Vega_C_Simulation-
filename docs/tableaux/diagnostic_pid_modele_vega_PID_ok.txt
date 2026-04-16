@@ -1,0 +1,40 @@
+===== DIAGNOSTIC PID MODELE VEGA PID OK =====
+Mode                    : no_render
+Temps de vol            : 360.2500 s
+Filtre reference tau    : 0.8000 s
+Filtre derivee tau      : 0.2500 s
+Limite integrale        : 12.0000 deg
+Moment max commande     : 2000000.0000 N.m
+Commande active         : non
+
+--- Axe phi ---
+Gains                   : kp = 6.4000e+05 | ki = 2.4000e+04 | kd = 2.2000e+05
+Erreur RMS              : NaN deg
+Erreur max abs          :  deg
+Moment max abs          :  N.m
+Part de saturation      : NaN
+P max abs               :  N.m
+I max abs               :  N.m
+D max abs               :  N.m
+
+--- Axe theta ---
+Gains                   : kp = 2.8000e+06 | ki = 1.2000e+05 | kd = 8.0000e+04
+Erreur RMS              : NaN deg
+Erreur max abs          :  deg
+Moment max abs          :  N.m
+Part de saturation      : NaN
+P max abs               :  N.m
+I max abs               :  N.m
+D max abs               :  N.m
+
+--- Axe psi ---
+Gains                   : kp = 5.2000e+05 | ki = 1.8000e+04 | kd = 2.0000e+05
+Erreur RMS              : NaN deg
+Erreur max abs          :  deg
+Moment max abs          :  N.m
+Part de saturation      : NaN
+P max abs               :  N.m
+I max abs               :  N.m
+D max abs               :  N.m
+
+================================================
