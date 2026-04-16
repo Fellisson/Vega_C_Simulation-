@@ -75,12 +75,12 @@ Ce script automatise une etude de sensibilite des gains PID. Il lance plusieurs 
 
 ## Figures de simulation
 
-Les figures principales retenues pour le memoire sont regroupees dans `docs/figures/`.
+Les figures ci-dessous correspondent directement aux sorties reelles generees par les scripts dans `out/images/`. Elles reflètent donc la version actuelle du modele avec vent realiste.
 
 ### 1. Dashboard de comparaison PID / sans PID
 
 Fichier :
-- `docs/figures/figure_comparaison_pid_dashboard.png`
+- `out/images/compare_pid_dashboard.png`
 
 Role :
 - donner une vue globale de la difference entre le cas avec PID et le cas sans PID ;
@@ -90,12 +90,12 @@ Lecture :
 - si les courbes avec PID suivent mieux la reference et restent plus regulieres, cela traduit un meilleur pilotage du lanceur ;
 - cette figure est la plus utile pour une lecture rapide des performances globales.
 
-![Dashboard PID](docs/figures/figure_comparaison_pid_dashboard.png)
+![Dashboard PID](out/images/compare_pid_dashboard.png)
 
 ### 2. Diagnostic PID du modele
 
 Fichier :
-- `docs/figures/figure_diagnostic_pid_modele_vega_PID_ok.png`
+- `out/images/modele_vega_PID_ok_pid.png`
 
 Role :
 - montrer les angles d'attitude reels et leurs references ;
@@ -105,12 +105,12 @@ Lecture :
 - on y verifie si les angles `phi`, `theta`, `psi` suivent correctement leurs consignes ;
 - on observe aussi si les moments de commande restent raisonnables ou s'approchent de la saturation.
 
-![Diagnostic PID](docs/figures/figure_diagnostic_pid_modele_vega_PID_ok.png)
+![Diagnostic PID](out/images/modele_vega_PID_ok_pid.png)
 
 ### 3. Diagnostic du vent
 
 Fichier :
-- `docs/figures/figure_diagnostic_vent_modele_vega_PID_ok.png`
+- `out/images/modele_vega_PID_ok_wind.png`
 
 Role :
 - afficher les composantes du vent `wind_x`, `wind_y`, `wind_z` ;
@@ -120,12 +120,12 @@ Lecture :
 - cette figure permet d'interpreter les perturbations appliquees au modele ;
 - elle est utile pour relier le comportement du PID aux efforts aerodynamiques dus au vent.
 
-![Diagnostic vent](docs/figures/figure_diagnostic_vent_modele_vega_PID_ok.png)
+![Diagnostic vent](out/images/modele_vega_PID_ok_wind.png)
 
 ### 4. Tableau image des performances en tangage
 
 Fichier :
-- `docs/figures/figure_tableau_comparaison_tangage.png`
+- `out/images/compare_pid_pitch_table.png`
 
 Role :
 - resumer les indicateurs de performance en tangage dans une image directement inserable dans le memoire.
@@ -134,12 +134,12 @@ Lecture :
 - on y lit le temps de montee, le depassement, le temps d'etablissement, l'erreur statique, la RMS et l'effort de commande ;
 - c'est la figure la plus importante pour la comparaison quantitative du controle.
 
-![Tableau tangage](docs/figures/figure_tableau_comparaison_tangage.png)
+![Tableau tangage](out/images/compare_pid_pitch_table.png)
 
 ### 5. Tableau image des indicateurs de mission
 
 Fichier :
-- `docs/figures/figure_tableau_comparaison_mission.png`
+- `out/images/compare_pid_mission_table.png`
 
 Role :
 - presenter les grandeurs globales de mission dans une forme exploitable pour le memoire.
@@ -148,17 +148,17 @@ Lecture :
 - on y compare le temps de vol, la portee, l'altitude maximale, la vitesse maximale et le temps de separation du satellite ;
 - cette figure montre si l'ajout du PID change ou non la logique generale de la mission.
 
-![Tableau mission](docs/figures/figure_tableau_comparaison_mission.png)
+![Tableau mission](out/images/compare_pid_mission_table.png)
 
 ## Tableaux et documents de synthese
 
-Les tableaux exploites pour le memoire sont regroupes dans `docs/tableaux/`.
+Les tableaux numeriques de reference sont ceux exportes dans `out/logs/`, tandis que `docs/tableaux/` contient des copies ou mises en forme utiles pour le memoire.
 
 ### Tableaux de comparaison principaux
 
-- `tableau_comparaison_tangage.csv` et `tableau_comparaison_tangage.txt`
-- `tableau_comparaison_mission.csv` et `tableau_comparaison_mission.txt`
-- `tableau_comparaison_pid_vs_no_pid.xlsx`
+- `out/logs/compare_pid_pitch_table.csv` et `out/logs/compare_pid_pitch_table.txt`
+- `out/logs/compare_pid_mission_table.csv` et `out/logs/compare_pid_mission_table.txt`
+- `out/logs/compare_pid_vs_no_pid.xlsx`
 
 Utilite :
 - le tableau de tangage sert a analyser finement la reponse du correcteur ;
@@ -167,8 +167,8 @@ Utilite :
 
 ### Tableaux de reglage PID
 
-- `tableau_choix_gains_pid.xlsx`
-- `tableau_choix_gains_pid.docx`
+- `docs/tableaux/tableau_choix_gains_pid.xlsx`
+- `docs/tableaux/tableau_choix_gains_pid.docx`
 
 Utilite :
 - expliquer la methode de choix de `Kp`, `Ki` et `Kd` ;
@@ -176,8 +176,8 @@ Utilite :
 
 ### Tableaux de sweep PID
 
-- `tableau_recap_sweep_pid.xlsx`
-- `tableau_recap_sweep_pid.docx`
+- `docs/tableaux/tableau_recap_sweep_pid.xlsx`
+- `docs/tableaux/tableau_recap_sweep_pid.docx`
 - `out/logs/pid_gain_sweep.xlsx`
 - `out/logs/pid_gain_sweep_summary.csv`
 
